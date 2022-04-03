@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Playfair+Display:wght@622&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-El{
+    @apply mr-4 hover:underline decoration-yellow-300 transition ease-out duration-300 hover:text-yellow-300;
+  }
