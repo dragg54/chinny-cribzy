@@ -4,7 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Playfair+Display:wght@622&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -12,4 +15,12 @@
 
 .nav-El{
     @apply mr-4 hover:underline decoration-yellow-300 transition ease-out duration-300 hover:text-yellow-300;
+  }
+
+  .box-container{
+    @apply flex-col w-full sm:mx-4 md:mx-8 items-center flex-nowrap sm:items-stretch justify-center h-full bg-pink-200 mt-12 sm:mt-20 flex px-2 py-1 sm:px-2 sm:py-2 sm:flex-row sm:justify-center
+  }
+
+  .box{
+    @apply bg-pink-700 sm:h-32rem h-full w-full flex flex-col  sm:mx-2 justify-center py-4 items-center px-3 sm:py-16 sm:px-6 lg:p-12 shadow-overshadow sm:my-0 my-3 sm:hover:opacity-40 hover:scale-110 transition-all ease-in duration-300
   }
