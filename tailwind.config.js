@@ -1,6 +1,8 @@
 module.exports = {
   content: [
-    './src/**/*.{html,js}'
+    './src/**/*.{html,js}',
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
   ],
   theme: {
     extend: {
@@ -63,7 +65,7 @@ module.exports = {
       },
 
       margin: {
-        drop: "200px",
+        drop: "300px",
       },
     },
   },

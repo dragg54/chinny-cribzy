@@ -18,9 +18,9 @@
   }
 
   .box-container{
-    @apply flex-col w-full sm:mx-4 md:mx-8 items-center flex-nowrap sm:items-stretch justify-center h-full bg-pink-200 mt-12 sm:mt-20 flex px-2 py-1 sm:px-2 sm:py-2 sm:flex-row sm:justify-center
+    @apply flex-col w-11/12 sm:mx-4 md:mx-8 items-center flex-nowrap sm:items-stretch justify-center h-full bg-pink-200 mt-12 sm:mt-20 flex px-2 py-1 sm:px-2 sm:py-2 sm:flex-row sm:justify-center
   }
 
   .box{
-    @apply bg-pink-700 sm:h-32rem h-full w-full flex flex-col  sm:mx-2 justify-center py-4 items-center px-3 sm:py-16 sm:px-6 lg:p-12 shadow-overshadow sm:my-0 my-3 sm:hover:opacity-40 hover:scale-110 transition-all ease-in duration-300
+    @apply bg-pink-700 sm:h-32rem h-full w-full flex flex-col sm:mx-2 justify-center py-4 items-center px-3 sm:py-16 sm:px-6 lg:p-12 shadow-overshadow sm:my-0 my-3 sm:hover:opacity-40 hover:scale-110 transition-all ease-in duration-300
   }
