@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         magenta: "#EC8FD0",
+        emerald: "#B68D40",
+        olive: '#1F2022',
+        fressia:"#F7DD80"
       },
       backgroundImage: {
         furniture: "url('../public/images/furniture.jpg')",
@@ -62,10 +65,12 @@ module.exports = {
         "mobile-container": "15rem",
         container: "17rem",
         "32rem": "32rem",
+        "500px": "500px"
       },
 
       margin: {
         drop: "300px",
+        150: "150px"
       },
     },
   },
